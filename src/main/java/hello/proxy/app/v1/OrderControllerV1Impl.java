@@ -1,9 +1,7 @@
 package hello.proxy.app.v1;
 
-import lombok.RequiredArgsConstructor;
 
-
-public class OrderControllerV1Impl implements OrderControllerV1{
+public class OrderControllerV1Impl implements OrderControllerV2 {
 
     private final OrderServiceV1 orderService;
 
